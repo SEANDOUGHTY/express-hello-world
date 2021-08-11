@@ -4,7 +4,7 @@ const port = process.env.PORT || 3001;
 
 app.get("/", (req, res) => {
     console.log(JSON.stringify(req.headers));
-    res.send("Hello from Render!");
+    res.send(JSON.stringify(req.headers));
 })
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
