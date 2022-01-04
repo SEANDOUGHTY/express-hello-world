@@ -1,0 +1,7 @@
+services:
+- type: web
+  name: service
+  env: node
+  buildCommand: yarn
+  startCommand: node app.js
+  region: frankfurt
