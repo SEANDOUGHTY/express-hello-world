@@ -5,4 +5,4 @@ services:
   buildCommand: yarn
   startCommand: node app.js
   region: frankfurt
-  plan: starter
+  plan: free
