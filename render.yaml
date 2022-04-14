@@ -4,5 +4,5 @@ services:
   env: node
   buildCommand: yarn
   startCommand: node app.js
-  region: frankfurt
+  region: oregon
   plan: free
