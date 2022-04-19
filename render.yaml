@@ -9,3 +9,4 @@ services:
   autoDeployFilter:
     paths:
     - README.md
+    - README1.md
