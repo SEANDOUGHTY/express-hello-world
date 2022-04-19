@@ -10,3 +10,5 @@ services:
     paths:
     - README.md
     - README1.md
+    ignoredPaths:
+    - render.yaml
