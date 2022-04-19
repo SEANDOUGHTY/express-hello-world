@@ -7,9 +7,3 @@ services:
   region: oregon
   plan: starter
   autoDeploy: false
-  autoDeployFilter:
-    paths:
-    - README.md
-    - README1.md
-    ignoredPaths:
-    - render.yaml
