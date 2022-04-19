@@ -6,7 +6,9 @@ services:
   startCommand: node app.js
   region: oregon
   plan: starter
-  autoDeploy: false
+  autoDeploy: true
+  autoDeployFilter:
+    paths: README.md
   envVars:
   - key: DB_URL
     fromDatabase:
