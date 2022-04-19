@@ -8,7 +8,8 @@ services:
   plan: starter
   autoDeploy: true
   autoDeployFilter:
-    paths: README.md
+    paths: 
+     - README.md
   envVars:
   - key: DB_URL
     fromDatabase:
