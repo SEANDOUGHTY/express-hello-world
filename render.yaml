@@ -6,3 +6,4 @@ services:
   startCommand: node app.js
   region: oregon
   plan: starter
+  autoDeployFilter: *
