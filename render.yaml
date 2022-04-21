@@ -4,6 +4,6 @@ services:
   env: node
   buildCommand: yarn
   startCommand: node app.js
-  region: oregon
+  region: starter
   plan: free
   autoDeploy: true
