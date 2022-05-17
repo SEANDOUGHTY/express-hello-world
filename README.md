@@ -15,4 +15,3 @@ Create a new web service with the following values:
 That's it! Your web service will be live on your Render URL as soon as the build finishes.
 
 Add some extra content and some more.
-Please deploy
