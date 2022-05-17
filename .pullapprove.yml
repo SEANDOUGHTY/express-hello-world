@@ -1,0 +1,5 @@
+version: 3
+overrides:
+- if: "'emergency' in labels"
+  status: success
+  explanation: "Review disabled with the emergency label"
